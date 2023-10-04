@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Definindo a codificação do documento para UTF-8 -->
+  <meta charset="UTF-8">
+  
+  <!-- Definindo a compatibilidade com navegadores -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <!-- Configurando a visualização em dispositivos móveis -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Título da página exibido na aba do navegador -->
+  <title>Exercícios JavaScript (Parte 1)</title>
+</head>
+
+<style>
+  /* Estilos CSS (consulte o código CSS fornecido para obter detalhes) */
+</style>
+
+<body onload="updateTime()">
+  <!-- O corpo principal da página começa aqui -->
+  
+  <header>
+    <!-- Cabeçalho da página -->
+    
+    <!-- Título principal -->
+    <h1>Exibindo a Data e Hora Atuais</h1>
+    
+    <!-- Subtítulo -->
+    <h2>Exercícios JavaScript (Parte 1)</h2>
+  </header>
+  
+  <section class="container">
+    <!-- Seção principal que contém o conteúdo central da página -->
+    
+    <div class="datetime">
+      <!-- Div para exibir data, hora e saudação -->
+      
+      <!-- Parágrafo para exibir a data atual -->
+      <p id="date"></p>
+      
+      <!-- Parágrafo para exibir a hora atual -->
+      <p id="time"></p>
+      
+      <!-- Parágrafo para exibir a saudação (Bom dia, Boa tarde, Boa noite) -->
+      <p id="greeting"></p>
+    </div>
+    
+    <div id="msg">
+      <!-- Div para exibir mensagens (pode estar vazia) -->
+    </div>
+    
+    <div id="foto">
+      <!-- Div para exibir uma imagem -->
+      
+      <!-- Imagem com um ID "imagem" e uma descrição alternativa -->
+      <img id="imagem" src="https://images.unsplash.com/photo-1625858317564-58c29cf0c72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1227&q=-80" alt="amanhecer no oceano">
+    </div>
+  </section>
+  
+  <footer>
+    <!-- Rodapé da página -->
+    
+    <!-- Parágrafo contendo o direito autoral com um link para o site "CursoEmVídeo" -->
+    <p>&copy; <a href="https://www.cursoemvideo.com/" target="_blank">CursoEmVídeo</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

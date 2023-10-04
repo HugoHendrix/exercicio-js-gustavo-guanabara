@@ -1,0 +1,77 @@
+
+/* Estilo para o corpo da página */
+body {
+    background-color: royalblue; /* Cor de fundo do corpo da página */
+    font: normal 15pt arial; /* Fonte padrão e tamanho do texto */
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    color: aliceblue; /* Cor do texto do cabeçalho */
+    text-align: center; /* Alinhamento do texto ao centro */
+  }
+  
+  /* Estilo para o título principal (h1) */
+  h1 {
+    font-size: 36px; /* Tamanho da fonte do título principal */
+    color: #333; /* Cor do texto do título principal */
+  }
+  
+  /* Estilo para a seção principal */
+  section {
+    background-color: azure; /* Cor de fundo da seção principal */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 15px; /* Espaçamento interno */
+    width: 500px; /* Largura da seção */
+    margin: auto; /* Centraliza a seção na página */
+    box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.428); /* Sombra */
+  }
+  
+  /* Estilo para a div que contém data, hora e saudação */
+  .datetime {
+    background-color: #fff; /* Cor de fundo da div */
+    border: 1px solid #ccc; /* Borda com cor e espessura */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  }
+  
+  /* Estilo para a data e hora */
+  #date, #time {
+    font-size: 24px; /* Tamanho da fonte */
+    color: #333; /* Cor do texto */
+    margin: 10px 0; /* Espaçamento superior e inferior */
+  }
+  
+  /* Estilo para a saudação (Bom dia, Boa tarde, Boa noite) */
+  #greeting {
+    font-size: 24px; /* Tamanho da fonte */
+    color: #007bff; /* Cor do texto */
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+  /* Estilo para imagens */
+  img {
+    width: 50%; /* Largura da imagem */
+    border-radius: 10%; /* Borda arredondada */
+  }
+  
+  /* Estilo para todas as divs */
+  div {
+    text-align: center; /* Alinhamento do texto ao centro */
+    padding: 10px; /* Espaçamento interno */
+  }
+  
+  /* Estilo para links */
+  a {
+    color: aliceblue; /* Cor do texto do link */
+    text-decoration: none; /* Remover sublinhado do link */
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    text-align: center; /* Alinhamento do texto ao centro */
+    font-style: italic; /* Estilo de fonte itálico */
+    color: aliceblue; /* Cor do texto do rodapé */
+  }
+  
